@@ -1,0 +1,41 @@
+def generator_squares(n):
+retrun [ i**2 for i in range(1,n)]
+
+for x in  generator_squares(100):
+    print(x)
+
+#lazy loading
+def generator_squares(n):
+    for i in range(1,n):
+        yield i**2
+
+for i in generater_squares(1000000000000):
+    print(i)
+
+a=generate_square(10):
+    print(i)
+    
+a=(i**2 for i in ramge(10))
+
+for i in a :
+    print(i)
+    
+a=(i**2 for i in range(10))
+iter(a)
+
+next(a)
+
+next(a)
+
+
+def func():
+    print("start")
+    yield 1
+    print("yielded 1")
+    yield 2
+    print("Yielded 2")
+
+it=iter(func())
+next(it)
+next(it)
+yielded 1
