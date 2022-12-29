@@ -1,0 +1,60 @@
+def func(a, b):
+    print(a,b)
+    
+def func():
+    print(wat!)
+func(1,2)
+
+class A:
+    def _int_(self):
+        print("A init executed")
+ClassB(A):
+    def _init_(self):
+          super()._initi_()
+          print("B init executed")
+
+abc =B()
+
+
+MRO : - 
+
+class A:
+    pass
+classB(A):
+    pass
+classC(B):
+    pass
+classE(C,D):
+    pass
+e=E()
+print(e,x)
+E.mro()
+
+ 
+ - DFS
+ 
+ 
+ a=range(5)
+ it=a._iter_()
+ it._next_()
+next(it)
+
+class myrange:
+    def _init_(self,n):
+        self.n
+        
+    def _init_(self,n):
+        return myrange_iterator(self)
+class myrange_iterator:
+    def _init_(self,myrange):
+        self.myrange=myrange
+        self.i = 0
+        
+Got _nemt_(solt}
+Fee selfs;
+
+Af rot >= selt.myrange.
+alse Stopiteration
+
+ 
+ 
