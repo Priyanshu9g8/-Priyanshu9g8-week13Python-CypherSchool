@@ -1,0 +1,49 @@
+a=5
+def func():
+type(func)
+ininstance(func, object)
+class A:
+    name="jatin"
+    marks=50
+    type(A)
+
+A=5
+type(A)
+type(int)
+object
+
+call A:
+    def _call_(self):
+        print("You called me")
+class A:
+    pass
+b=A._call_()
+b=A()
+def func():
+      print("Hello")
+func()
+func._call_()
+a=A()
+type(a)
+a()
+b=A._call_(A)
+
+a={"name": "Jatin"}
+a["name"]
+a._getitem_('name')
+
+class Exponent:
+    def _init_(self,n):
+        self.n=n
+        
+    def _getem_(self, x):
+        return x ** self.n
+  
+class Dog:
+tricks = []
+
+def init__(self, name):
+    self-nane = name
+
+def add trick(self, trick):
+self. tricks append(trick)
